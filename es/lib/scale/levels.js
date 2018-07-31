@@ -4,9 +4,9 @@ export var defaultFormatters = {
 	monthFormat: "%b",
 	weekFormat: "%d %b",
 	dayFormat: "%a %d",
-	hourFormat: "%_I %p",
-	minuteFormat: "%I:%M",
-	secondFormat: "%I:%M:%S",
+	hourFormat: "%-H",
+	minuteFormat: "%-H:%M",
+	secondFormat: "%-H:%M:%S",
 	milliSecondFormat: "%L"
 };
 
